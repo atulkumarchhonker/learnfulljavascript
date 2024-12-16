@@ -8,7 +8,7 @@ This repository contains a list of JavaScript concepts, functions, methods, and 
 ![npm](https://img.shields.io/npm/dt/learn-javascript)
 ![GitHub repo size](https://img.shields.io/github/repo-size/manthanank/learn-javascript)
 
-![GitHub](https://img.shields.io/github/license/manthanank/learn-javascript)
+![GitHub](https://img.shields.io/github/license/atulkumarchhonker/learn-javascript)
 
 ## Table of Contents
 
@@ -774,8 +774,8 @@ Objects are used to store key/value (name/value) collections.
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 ```
 
@@ -787,8 +787,8 @@ The following are some of the most commonly used object methods and properties i
 
 ```javascript
 let person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 console.log(person.constructor); // Output: ƒ Object() { [native code] }
@@ -798,8 +798,8 @@ console.log(person.constructor); // Output: ƒ Object() { [native code] }
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 let keys = Object.keys(person);
@@ -810,21 +810,21 @@ console.log(keys); // Output: ["firstName", "lastName"]
 
 ```javascript
 let person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
-Object.prototype.age = 25;
+Object.prototype.age = 22;
 
-console.log(person.age); // Output: 25
+console.log(person.age); // Output: 22
 ```
 
 **toString()** - Converts an object to a string and returns the result
 
 ```javascript
 let person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 console.log(person.toString()); // Output: "[object Object]"
@@ -834,11 +834,11 @@ console.log(person.toString()); // Output: "[object Object]"
 
 ```javascript
 let person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
-console.log(person.valueOf()); // Output: {firstName: "Manthan", lastName: "Ank"}
+console.log(person.valueOf()); // Output: {firstName: "Atul", lastName: "Kumar"}
 ```
 
 [Back to Top⤴️](#table-of-contents)
@@ -1196,10 +1196,10 @@ console.log(element); // Output: "c"
 ```javascript
 let array = ['a', 'b', 'c'];
 
-Array.prototype.age = 25;
+Array.prototype.age = 22;
 
 console.log(array); // Output: ["a", "b", "c"]
-console.log(array.age); // Output: 25
+console.log(array.age); // Output: 22
 ```
 
 **push()** - Adds new elements to the end of an array, and returns the new length
@@ -1391,10 +1391,10 @@ console.log(iterator.next().value); // Output: "a"
 ```javascript
 let array = ['a', 'b', 'c'];
 
-Array.with = 25;
+Array.with = 22;
 
 console.log(array); // Output: ["a", "b", "c"]
-console.log(Array.with); // Output: 25
+console.log(Array.with); // Output: 22
 ```
 
 [Back to Top⤴️](#table-of-contents)
@@ -1404,7 +1404,7 @@ console.log(Array.with); // Output: 25
 Strings are used to store text. Strings must be enclosed in single or double quotes.
 
 ```javascript
-const name = 'Manthan';
+const name = 'Atul';
 ```
 
 ### Strings methods
@@ -1608,9 +1608,9 @@ console.log(newString); // Output: " World!Hello"
 
 ```javascript
 let myString = "Hello World!";
-String.prototype.age = 25;
+String.prototype.age = 22;
 
-console.log(myString.age); // Output: 25
+console.log(myString.age); // Output: 22
 ```
 
 **repeat()** - Returns a new string with a number of copies of a string
@@ -1736,10 +1736,10 @@ console.log(myString.toLowerCase()); // Output: "hello world!"
 
 ```javascript
 let myString = "Hello World!";
-let number = 25; 
+let number = 22; 
 
 console.log(myString.toString()); // Output: "Hello World!"
-console.log(number.toString()); // Output: "25"
+console.log(number.toString()); // Output: "22"
 ```
 
 **toUpperCase()** - Returns a string converted to uppercase letters
@@ -1798,14 +1798,14 @@ Objects are used to store collections of data and more complex entities.
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
-  age: 25,
+  firstName: "Atul",
+  lastName: "Kumar",
+  age: 22,
   hobbies: ["reading", "coding", "traveling"],
   address: {
-    street: "123 Main St",
-    city: "Mumbai",
-    state: "MH",
+    street: "Jewar Khurja Road",
+    city: "Jewar",
+    state: "UP",
   },
 };
 ```
@@ -1845,26 +1845,26 @@ The following are some of the most commonly used object methods in JavaScript:
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const details = {
-  age: 25,
+  age: 22,
   hobbies: ["reading", "coding", "traveling"],
 };
 
 const newPerson = Object.assign(person, details);
 
-console.log(newPerson); // Output: {firstName: "Manthan", lastName: "Ank", age: 25, hobbies: Array(3)}
+console.log(newPerson); // Output: {firstName: "Atul", lastName: "Kumar", age: 22, hobbies: Array(3)}
 ```
 
 **create()** - Creates a new object with the specified prototype object and properties
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const newPerson = Object.create(person);
@@ -1881,16 +1881,16 @@ const person = {};
 
 Object.defineProperties(person, {
   firstName: {
-    value: "Manthan",
+    value: "Atul",
     writable: true,
   },
   lastName: {
-    value: "Ank",
+    value: "Kumar",
     writable: true,
   },
 });
 
-console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
+console.log(person); // Output: {firstName: "Atul", lastName: "Kumar"}
 ```
 
 **defineProperty()** - Defines a new property directly on an object, or modifies an existing property on an object, and returns the object
@@ -1899,11 +1899,11 @@ console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
 const person = {};
 
 Object.defineProperty(person, "firstName", {
-  value: "Manthan",
+  value: "Atul",
   writable: true,
 });
 
-console.log(person); // Output: {firstName: "Manthan"}
+console.log(person); // Output: {firstName: "Atul"}
 ```
 
 [Back to Top⤴️](#table-of-contents)
@@ -1912,28 +1912,28 @@ console.log(person); // Output: {firstName: "Manthan"}
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const entries = Object.entries(person);
 
-console.log(entries); // Output: [["firstName", "Manthan"], ["lastName", "Ank"]]
+console.log(entries); // Output: [["firstName", "Atul"], ["lastName", "Kumar"]]
 ```
 
 **freeze()** - Freezes an object: other code can't delete or change any properties
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 Object.freeze(person);
 
-person.age = 25;
+person.age = 22;
 
-console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
+console.log(person); // Output: {firstName: "Atul", lastName: "Kumar"}
 ```
 
 [Back to Top⤴️](#table-of-contents)
@@ -1942,26 +1942,26 @@ console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
 
 ```javascript
 const entries = [
-  ["firstName", "Manthan"],
-  ["lastName", "Ank"],
+  ["firstName", "Atul"],
+  ["lastName", "Kumar"],
 ];
 
 const person = Object.fromEntries(entries);
 
-console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
+console.log(person); // Output: {firstName: "Atul", lastName: "Kumar"}
 ```
 
 **getOwnPropertyDescriptor()** - Returns a property descriptor for a named property on an object
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const descriptor = Object.getOwnPropertyDescriptor(person, "firstName");
 
-console.log(descriptor); // Output: {value: "Manthan", writable: true, enumerable: true, configurable: true}
+console.log(descriptor); // Output: {value: "Atul", writable: true, enumerable: true, configurable: true}
 ```
 
 [Back to Top⤴️](#table-of-contents)
@@ -1970,8 +1970,8 @@ console.log(descriptor); // Output: {value: "Manthan", writable: true, enumerabl
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const descriptors = Object.getOwnPropertyDescriptors(person);
@@ -1983,8 +1983,8 @@ console.log(descriptors); // Output: {firstName: {…}, lastName: {…}}
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const properties = Object.getOwnPropertyNames(person);
@@ -1998,8 +1998,8 @@ console.log(properties); // Output: ["firstName", "lastName"]
 
 ```javascript
 const person = {
-  [Symbol("firstName")]: "Manthan",
-  [Symbol("lastName")]: "Ank",
+  [Symbol("firstName")]: "Atul",
+  [Symbol("lastName")]: "Kumar",
 };
 
 const symbols = Object.getOwnPropertySymbols(person);
@@ -2011,8 +2011,8 @@ console.log(symbols); // Output: [Symbol(firstName), Symbol(lastName)]
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const prototype = Object.getPrototypeOf(person);
@@ -2026,22 +2026,22 @@ console.log(prototype); // Output: {constructor: ƒ, __defineGetter__: ƒ, __def
 
 ```javascript
 const people = [
-  { name: "Manthan", age: 25 },
-  { name: "Ank", age: 30 },
-  { name: "John", age: 25 },
+  { name: "Atul", age: 22 },
+  { name: "Nitin", age: 25 },
+  { name: "John", age: 26 },
 ];
 
 const groupedPeople = people.groupBy(person => person.age);
 
-console.log(groupedPeople); // Output: {25: Array(2), 30: Array(1)}
+console.log(groupedPeople); // Output: {22: Array(2), 25: Array(1)}
 ```
 
 **hasOwn()** - Returns a boolean indicating whether the object has the specified property as its own property
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 console.log(person.hasOwn("firstName")); // Output: true
@@ -2053,13 +2053,13 @@ console.log(person.hasOwn("firstName")); // Output: true
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const newPerson = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 console.log(Object.is(person, newPerson)); // Output: false
@@ -2069,8 +2069,8 @@ console.log(Object.is(person, newPerson)); // Output: false
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 console.log(Object.isExtensible(person)); // Output: true
@@ -2082,8 +2082,8 @@ console.log(Object.isExtensible(person)); // Output: true
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 Object.freeze(person);
@@ -2095,8 +2095,8 @@ console.log(Object.isFrozen(person)); // Output: true
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 Object.seal(person);
@@ -2110,8 +2110,8 @@ console.log(Object.isSealed(person)); // Output: true
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const keys = Object.keys(person);
@@ -2123,15 +2123,15 @@ console.log(keys); // Output: ["firstName", "lastName"]
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 Object.preventExtensions(person);
 
-person.age = 25;
+person.age = 22;
 
-console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
+console.log(person); // Output: {firstName: "Atul", lastName: "Kumar"}
 ```
 
 [Back to Top⤴️](#table-of-contents)
@@ -2140,28 +2140,28 @@ console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
-Object.prototype.age = 25;
+Object.prototype.age = 22;
 
-console.log(person.age); // Output: 25
+console.log(person.age); // Output: 22
 ```
 
 **seal()** - Prevents other code from deleting properties of an object
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 Object.seal(person);
 
 delete person.firstName;
 
-console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
+console.log(person); // Output: {firstName: "Atul", lastName: "Kumar"}
 ```
 
 [Back to Top⤴️](#table-of-contents)
@@ -2170,30 +2170,30 @@ console.log(person); // Output: {firstName: "Manthan", lastName: "Ank"}
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const newPerson = {
-  age: 25,
+  age: 22,
 };
 
 Object.setPrototypeOf(newPerson, person);
 
-console.log(newPerson); // Output: {age: 25}
+console.log(newPerson); // Output: {age: 22}
 ```
 
 **values()** - Returns an array of a given object's own enumerable property values
 
 ```javascript
 const person = {
-  firstName: "Manthan",
-  lastName: "Ank",
+  firstName: "Atul",
+  lastName: "Kumar",
 };
 
 const values = Object.values(person);
 
-console.log(values); // Output: ["Manthan", "Ank"]
+console.log(values); // Output: ["Atul", "Kumar"]
 ```
 
 ## Loops
@@ -2628,10 +2628,10 @@ d.constructor; // ƒ Date() { [native code] }
 **prototype** - Allows you to add properties and methods to the Date object
 
 ```javascript
-Date.prototype.age = 25;
+Date.prototype.age = 22;
 
 const d = new Date();
-d.age; // 25
+d.age; // 22
 ```
 
 **UTC** - Returns the number of milliseconds since January 1, 1970, 00:00:00 UTC
@@ -4586,7 +4586,7 @@ function myFunction() {
 </html>
 ```
 
-[Replit Link](https://replit.com/@manthanank/Prompt-Box#index.html)
+[Replit Link](https://replit.com/@atulkumarchhonker/Prompt-Box#index.html)
 
 [Back to Top⤴️](#table-of-contents)
 
@@ -4613,7 +4613,7 @@ Line Breaks
 </html>
 ```
 
-[Replit Link](https://replit.com/@manthanank/Line-Breaks-in-JavaScript#index.html)
+[Replit Link](https://replit.com/@atulkumarchhonker/Line-Breaks-in-JavaScript#index.html)
 
 [Back to Top⤴️](#table-of-contents)
 
@@ -10741,7 +10741,7 @@ Sliding window maximum.
 
 ## List of LinkedIn Users
 
-- [Adrian Bogdan](https://www.linkedin.com/in/adrian-%F0%9F%9F%A3-b-b52348181/)
+- [Adrian Bogdan](https://www.linkedin.com/in/atul-kumar-webdeveloper/)
 - [Jayesh Choudary](https://www.linkedin.com/in/jayesh-choudhary-72444518b/)
 - [Pradeep Pandey](https://www.linkedin.com/in/pradeep-pandey-5a545a163/)
 
@@ -10770,20 +10770,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Connect with me
 
-- [Twitter](https://twitter.com/manthan_ank)
-- [LinkedIn](https://www.linkedin.com/in/manthanank)
-- [Facebook](https://www.facebook.com/manthanank/)
-- [Instagram](https://www.instagram.com/manthan_ank/)
-- [YouTube](https://www.youtube.com/@manthanank)
-- [GitHub](https://github.com/manthanank)
+- [Twitter](https://twitter.com/atulchhonker5)
+- [LinkedIn](https://www.linkedin.com/in/atul-kumar-webdeveloper)
+- [Facebook](https://www.facebook.com/codingwithatul24/)
+- [Instagram](https://www.instagram.com/atulsinghchhonker/)
+- [YouTube](https://www.youtube.com/@atulsinghchhonker)
+- [GitHub](https://github.com/atulkumarchhonker)
 
 ## Support
 
 If you like this learning repository and find it useful, consider buying me a coffee or sponsoring me through the GitHub Sponsor. Your support will help me to continue and bring more exciting projects. Thank you!
 
-[![Buy Me A Coffee](/assets/bmc-button.svg)](https://www.buymeacoffee.com/manthanank)
+[![Buy Me A Coffee](/assets/bmc-button.svg)](https://www.buymeacoffee.com/codingwithatul24)
 
-[![Sponsor Me](https://img.shields.io/badge/Sponsor-GitHub-green)]([https://](https://github.com/sponsors/manthanank))
+[![Sponsor Me](https://img.shields.io/badge/Sponsor-GitHub-green)]([https://](https://github.com/sponsors/atulkumarchhonker))
 
 ---
 
