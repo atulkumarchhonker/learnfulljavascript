@@ -6,7 +6,7 @@ This repository contains a list of JavaScript concepts, functions, methods, and 
 ![npm](https://img.shields.io/npm/dm/learn-javascript)
 ![npm](https://img.shields.io/npm/dy/learn-javascript)
 ![npm](https://img.shields.io/npm/dt/learn-javascript)
-![GitHub repo size](https://img.shields.io/github/repo-size/manthanank/learn-javascript)
+![GitHub repo size](https://img.shields.io/github/repo-size/atulkumarchhonker/learn-javascript)
 
 ![GitHub](https://img.shields.io/github/license/atulkumarchhonker/learn-javascript)
 
